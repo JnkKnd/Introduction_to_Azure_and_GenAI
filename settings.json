@@ -1,8 +1,0 @@
-{
-    "rest-client.environmentVariables": {
-        "$shared": {
-            "API_KEY": "your-secret-api-key",
-            "ENDPOINT": "https://api.example.com/v1"
-        }
-    }
-}
