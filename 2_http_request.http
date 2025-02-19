@@ -1,7 +1,7 @@
 # @apiKey と @endpoint に入力してください。""は不要です。
 # 通常の HTTPリクエストや、コンテンツフィルターの挙動を確認ください
-@apiKey = 3ea851ca6b464618b2905edae0a5ee51
-@endpoint = https://aoai-eastus-jk.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview
+@apiKey = 
+@endpoint =
 
 POST {{endpoint}} HTTP/1.1
 Content-Type: application/json
