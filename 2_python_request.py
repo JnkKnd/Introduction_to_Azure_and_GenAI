@@ -8,7 +8,7 @@ AZURE_OPENAI_KEY = env_vars["AZURE_OPENAI_KEY"]
 AZURE_OPENAI_ENDPOINT = env_vars["AZURE_OPENAI_ENDPOINT"]
 DEPLOYMENT_NAME = env_vars["DEPLOYMENT_NAME"]
 
-url = f"{AZURE_OPENAI_ENDPOINT}/openai/deployments/{DEPLOYMENT_NAME}/chat/completions?api-version=2024-02-15-preview"
+url = f"{AZURE_OPENAI_ENDPOINT}"
 
 headers = {"Content-Type": "application/json", "api-key": f"{AZURE_OPENAI_KEY}"}
 
@@ -23,5 +23,4 @@ data = {
 }
 
 response = requests.request("POST", url, headers=headers, json=data)
-
 print(response.json()["choices"][0]["message"]["content"])

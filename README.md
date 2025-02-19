@@ -29,7 +29,7 @@ https://learn.microsoft.com/ja-jp/azure/ai-services/openai/use-your-data-quickst
 ## 事前準備
 1. Azure OpenAI リソースから gpt-4o のデプロイ
 2. .env ファイルへの入力
-2 
+2.  
 
 ### リポジトリのクローン
 - demo を分かりやすくするために、キーとエンドポイントを直打ちする場合がありますので、ローカルにクローンした上でご利用ください
